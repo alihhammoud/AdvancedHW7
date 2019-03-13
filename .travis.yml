@@ -2,7 +2,7 @@ language: python
 script:
  - python test_rpn.py
  - pip install coverage
- - coverage run rpn.py
+ - coverage run test_rpn.py
  - coverage report
 python:
  - "3.5"
