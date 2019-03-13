@@ -1,8 +1,10 @@
 language: python
 script:
  - python test_rpn.py
+ - pip install coveralls
  - pip install coverage
  - coverage run test_rpn.py
  - coverage report
+ - coveralls
 python:
  - "3.5"
