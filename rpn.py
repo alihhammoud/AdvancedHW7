@@ -34,6 +34,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-print random.randint(0, 5)
 if random.randint(0,10) == 5:
     print("We did it");
